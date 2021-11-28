@@ -13,3 +13,4 @@ set.each do |x|
     break
   end
 end
+#gestolen van: https://github.com/gchan/advent-of-code-ruby
