@@ -1,4 +1,4 @@
-file = File.open(File.join(File.dirname(__FILE__), 'input.txt'), 'r+')
+file = File.open('input.txt')
 file_lines = file.readlines.map(&:chomp)
 for line in file_lines
     for checkLine in file_lines
@@ -11,3 +11,4 @@ for line in file_lines
     end
 end
 # p file_lines
+File.close()
